@@ -1,0 +1,15 @@
+﻿Section,Step,Code_or_Description
+Package,1,package Banking;
+Import,2,import java.util.Scanner;
+Class,3,public class system
+Main method,4,public static void main(String[] args)
+Input,5,Create Scanner: Scanner sc = new Scanner(System.in);
+PIN,6,Ask the user to enter their PIN and read userPin.
+Initial values,7,pin = 8539; balance = 10000;
+Authentication,8,"If pin == userPin, display the banking menu; otherwise display Invalid PIN."
+Menu,9,1. Withdraw amount; 2. Deposit amount; 3. Check Balance.
+Withdraw,10,Read withdrawal amount and display balance - withdrawal amount.
+Deposit,11,Read deposit amount and display balance + deposit amount.
+Check balance,12,Display the current balance.
+Invalid option,13,Display Enter valid option and Thanks for visiting.
+Close scanner,14,sc.close();
